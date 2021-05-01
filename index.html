@@ -3,7 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <title>About me</title>
-        <link rel="stylesheet" type = "text/css" href = "style.css" />
+        
+        <style>
+            #Center{
+                text-align: center;
+            }
+
+            #Font {
+                font-family: fantasy;
+                background-color:#c2ffc9;
+            }
+
+            #red {
+                color: red;
+            }
+
+            #pink {
+                color: pink;
+            }   
+
+            #Border{
+                border-style: dotted;
+                border-color: tomato;
+            }
+        </style>
     </head>
 
 
@@ -32,7 +55,13 @@
 
 
         </div>
-        <script src = "script.js"></script>
+        <script>
+            document.getElementById("demo").addEventListener("click", test);
+            function test(){
+                window.alert("ขอบคุณสำหรับความคิดเห็น อิอิ")
+            }
+
+        </script>
         
     </body>
 
